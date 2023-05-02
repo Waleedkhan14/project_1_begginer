@@ -1,0 +1,77 @@
+:root{
+    --primary-color:yellow;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightpink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding:20px ;
+}
+h1{
+    color:var(--primary-color) ;
+    text-align: center;
+}
+p{
+color:white;
+text-align: center;
+}
+.btn{
+    background-color:var(--primary-color) ;
+    color:black;
+    cursor:pointer ;
+    border-radius:5px ;
+    font-size:14px ;
+    padding:10px 20px ;
+    border: 1px solid var(--primary-color);
+    font-weight:bold ;
+
+}
+.money-img{
+    width: 200px;
+}
+.currency{
+
+    padding:30px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.currency select{
+    background-color:lightgrey ;
+    padding:10px 20px ;
+    border: 1px solid lightgrey;
+    font-size:16px ;
+    width: 45%;
+
+}
+.currency input{
+    border: 0;
+     background-color:transparent ;
+    color: white;
+    font-size: 28px;
+    text-align: right;
+    width:45% ;
+}
+.filp-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.rate{
+    color:var(--primary-color) ;
+    font-size: 24px;
+    padding: 0 10px;
+
+}
+select:focus, input:focus, button:focus{
+    outline:0 ;
+}
